@@ -7,13 +7,13 @@ from numpy import*
 
  def remplir(n , t):
      for i in range (0,n-1):
-         t[i] = int(input("doenin"))
+         t[i] = int(input("donner t"))
          while not (len<=t[i]<=10 ):
              t[i] = int(input("doenin"))
   def alpha(ch):
      test = True
      i = 0
-     if ch <= [A , Z]:
+     if ch <= [A..Z]:
          i =i + 1
      else:
          test = False
